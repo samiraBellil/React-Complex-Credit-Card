@@ -1,0 +1,122 @@
+.credit_card{
+    background-image: url(./Credit_Card.jpg);
+    width: 500px;
+    border-radius: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    padding: 30px;
+    background-repeat: no-repeat;
+    border: solid;
+    background-size: 100% 100%;
+    margin: 30px auto;
+  }
+  
+  .title1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800px;
+    font: normal;
+    text-align: right;
+  }
+  
+  .ship{
+    height: 65px;
+    width: 70px;
+  }
+  .visa{
+    height: 100px;
+    margin-left: 20px;
+  }
+  .Numbers{
+    margin: 0;
+    color:white;
+    word-spacing: 1rem;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+    background-color:#ffff0057;
+    letter-spacing: 4px;
+  } 
+  .Month_Year{
+    margin:0;
+    padding-left: 30px;
+    color: white;
+    font-size: 10px;;
+    font-family: serif;
+    align-self: flex-end;
+    /* margin-right: 15px; */
+  }
+  .number{
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+  .Valid_Thru{
+    margin: 0;
+    color: white;
+    font-size: 10px;
+    font-family: serif;
+  }
+  .Date{
+    margin:0;
+    color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+  .Tiltle2{
+    color: white;
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: start;
+  }
+  .fa-angle-right{
+    /* align-self: center; */
+    margin: 0;
+  }
+  
+  
+  .flex-container{
+    display: flex;
+    direction: colunm;
+    align-items: flex-end; 
+  }
+  
+  .flex-items{ 
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+  }
+  
+  .Part1{
+    display: flex;
+    justify-content: space-between;
+   /*  align-items: center;  */
+  }
+  .Part2{
+    display: flex;
+    /* align-items: center; */
+  }  
+
+
+.inputInterface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
